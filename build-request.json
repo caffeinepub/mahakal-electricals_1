@@ -1,0 +1,58 @@
+{
+  "kind": "build_request",
+  "title": "Update contact numbers and change experience to 2 years",
+  "projectName": "Mahakal Electricals",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "text": "Update all instances of the phone numbers in the Contact section, Footer, and WhatsApp button to use 9630232599 and 9179142549. Ensure both numbers appear as clickable tel: links wherever phone numbers are displayed.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ],
+        "quotes": [
+          "Change the contact no 9630232599 and 9179142549"
+        ]
+      },
+      "acceptanceCriteria": [
+        "ContactSection displays 9630232599 and 9179142549 as clickable phone links",
+        "Footer displays the updated phone numbers",
+        "WhatsApp button links use 9630232599 (or 9179142549 as appropriate)",
+        "No old/placeholder phone numbers remain anywhere on the page"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "In the About section's highlights checklist and/or stats row (wherever years of experience is mentioned), change the experience value from its current value to '2 Years of Experience'. Also update the Hero section stats row if it references years of experience.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Make it perfect with change of experience 2 years"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The About section displays '2 Years of Experience' (or '2+ Years') in the highlights or stats area",
+        "The Hero section stats row shows '2+' or '2 Years' for the experience metric if that stat exists",
+        "No other year count contradicts the 2-year experience claim anywhere on the page"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not alter any other contact details (address, business hours) beyond the phone numbers specified",
+    "Do not change any other stats or content in the About or Hero sections beyond the experience figure"
+  ],
+  "nonGoals": [
+    "Redesigning any section layout",
+    "Adding new sections or features",
+    "Changing owner names or business address"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

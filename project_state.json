@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website for Mahakal Electricals — an electrical shop in Shivpuri, Madhya Pradesh. The site includes sections for hero, about, brand showcase, product catalog (fans, lights, switches), services, contact, and a floating WhatsApp button. Owned by Neeraj Verma & Dheeraj Dhakad.",
+  "architectural_notes": [
+    "Single-page HTML website using Poppins font, Font Awesome icons, and CSS custom properties (no external JS framework)",
+    "Primary color: #003366 (navy), Accent color: #f1c40f (yellow); mobile responsive with navbar hidden on <768px",
+    "Product catalog organized by category (fans, lights, switches) with brand tags; brands include Havells, Bajaj, BPL, Crompton, Polymade, Jaguar, Goldmedal, Finolex, Syska, Anchor, Polycab, Luminous",
+    "Floating WhatsApp button fixed at bottom-right; contact section includes info panel and inquiry form"
+  ],
+  "known_issues": [
+    "Navbar links hidden on mobile (no hamburger menu implemented)"
+  ],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-build-a-sticky-top-navigation-bar-with-the-logo-mahakal-electricals-and-links-to-home-about-products-services-and-a-highlighted-contact-us-button-include-a-hamburger-menu-for-mobile-screens",
+      "title": "Build a sticky top navigation bar with the logo 'MAHAKAL ELECTRICALS' and links to Home, About, Products, Services, and a highlighted Contact Us button. Include a hamburger menu for mobile screens.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-hero-section-with-the-headline-powering-your-home-in-shivpuri-a-subtitle-about-electrical-products-and-repair-services-in-madhya-pradesh-and-two-cta-buttons-view-products-scrolls-to-products-section-and-get-directions-scrolls-to-contact-section",
+      "title": "Build a hero section with the headline 'Powering Your Home in Shivpuri', a subtitle about electrical products and repair services in Madhya Pradesh, and two CTA buttons: 'View Products' (scrolls to products section) and 'Get Directions' (scrolls to contact section).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-about-section-describing-mahakal-electricals-located-near-giri-raj-marriage-garden-gwalior-bypass-shivpuri-madhya-pradesh-mention-owners-neeraj-verma-dheeraj-dhakad-use-a-two-column-layout-with-an-image-on-the-left-and-text-on-the-right-collapsing-to-single-column-on-mobile",
+      "title": "Build an About section describing Mahakal Electricals, located near Giri Raj Marriage Garden, Gwalior Bypass, Shivpuri, Madhya Pradesh. Mention owners Neeraj Verma & Dheeraj Dhakad. Use a two-column layout with an image on the left and text on the right, collapsing to single column on mobile.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-top-brands-available-section-displaying-branded-tiles-for-havells-bajaj-bpl-crompton-polymade-jaguar-goldmedal-finolex-syska-anchor-polycab-and-luminous-each-tile-should-have-a-hover-effect-with-accent-border-and-scale-transform",
+      "title": "Build a 'Top Brands Available' section displaying branded tiles for: Havells, Bajaj, BPL, Crompton, Polymade, Jaguar, Goldmedal, Finolex, Syska, Anchor, Polycab, and Luminous. Each tile should have a hover effect with accent border and scale transform.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-products-catalog-section-organized-by-category-each-product-card-shows-a-brand-tag-accent-colored-pill-a-category-icon-product-name-and-short-description-include-the-following-categories-and-products-ceiling-fans-havells-steera-crompton-hi-q-bajaj-fan-polymade-aura-goldmedal-crest-led-lights-bulbs-havells-led-bulb-15w-100w-syska-smart-led-bajaj-energy-saver-crompton-led-bpl-t8-led-tube-switches-accessories-anchor-roma-havells-crabtree-goldmedal-vantage-legrand-myrius-wipro-north-west-cards-lift-on-hover-with-a-translatey-effect",
+      "title": "Build a Products catalog section organized by category. Each product card shows a brand tag (accent-colored pill), a category icon, product name, and short description. Include the following categories and products: Ceiling Fans (Havells Steera, Crompton Hi-Q, Bajaj Fan, Polymade Aura, Goldmedal Crest); LED Lights & Bulbs (Havells LED Bulb 15W-100W, Syska Smart LED, Bajaj Energy Saver, Crompton LED, BPL T8 LED Tube); Switches & Accessories (Anchor Roma, Havells Crabtree, Goldmedal Vantage, Legrand Myrius, Wipro North West). Cards lift on hover with a translateY effect.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-section-with-cards-for-electrical-wiring-installation-fan-light-repair-mcb-switchboard-repair-inverter-battery-service-industrial-wiring-and-home-automation-each-card-shows-an-icon-title-and-short-description",
+      "title": "Build a Services section with cards for: Electrical Wiring & Installation, Fan & Light Repair, MCB & Switchboard Repair, Inverter & Battery Service, Industrial Wiring, and Home Automation. Each card shows an icon, title, and short description.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-contact-section-with-shop-contact-details-address-giri-raj-marriage-garden-gwalior-bypass-shivpuri-mp-phone-whatsapp-displayed-alongside-a-contact-enquiry-form-with-fields-for-name-phone-message-and-a-submit-button",
+      "title": "Build a Contact section with shop contact details (address: Giri Raj Marriage Garden, Gwalior Bypass, Shivpuri, MP; phone; WhatsApp) displayed alongside a contact enquiry form with fields for Name, Phone, Message, and a Submit button.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-fixed-floating-whatsapp-button-in-the-bottom-right-corner-that-opens-a-whatsapp-chat-link-when-clicked",
+      "title": "Add a fixed floating WhatsApp button in the bottom-right corner that opens a WhatsApp chat link when clicked.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-professional-dark-navy-and-gold-visual-theme-throughout-the-site-primary-color-003366-navy-accent-color-f1c40f-gold-with-poppins-font-clean-card-shadows-and-consistent-spacing-the-design-should-feel-trustworthy-and-modern-suitable-for-an-established-local-electrical-business",
+      "title": "Apply a professional dark-navy and gold visual theme throughout the site: primary color #003366 (navy), accent color #f1c40f (gold), with Poppins font, clean card shadows, and consistent spacing. The design should feel trustworthy and modern, suitable for an established local electrical business.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-instances-of-the-phone-numbers-in-the-contact-section-footer-and-whatsapp-button-to-use-9630232599-and-9179142549-ensure-both-numbers-appear-as-clickable-tel-links-wherever-phone-numbers-are-displayed",
+      "title": "Update all instances of the phone numbers in the Contact section, Footer, and WhatsApp button to use 9630232599 and 9179142549. Ensure both numbers appear as clickable tel: links wherever phone numbers are displayed.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-in-the-about-section-s-highlights-checklist-and-or-stats-row-wherever-years-of-experience-is-mentioned-change-the-experience-value-from-its-current-value-to-2-years-of-experience-also-update-the-hero-section-stats-row-if-it-references-years-of-experience",
+      "title": "In the About section's highlights checklist and/or stats row (wherever years of experience is mentioned), change the experience value from its current value to '2 Years of Experience'. Also update the Hero section stats row if it references years of experience.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [],
+  "gameProjectType": "none",
+  "projectName": "Mahakal Electricals",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

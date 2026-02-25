@@ -1,0 +1,55 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update contact numbers and change experience to 2 years",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "summary": "Update all phone numbers to 9630232599 and 9179142549 in Contact section, Footer, and WhatsApp button",
+      "acceptanceCriteria": [
+        "ContactSection displays 9630232599 and 9179142549 as clickable phone links",
+        "Footer displays the updated phone numbers",
+        "WhatsApp button links use 9630232599 (or 9179142549 as appropriate)",
+        "No old/placeholder phone numbers remain anywhere on the page"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Update the phone number display and tel: links to show 9630232599 and 9179142549. Ensure both numbers are rendered as clickable links with proper tel: href attributes. Update any WhatsApp-related phone references in this component."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the contact details section to display the new phone numbers 9630232599 and 9179142549. Ensure they are formatted as clickable tel: links."
+        },
+        {
+          "path": "frontend/src/components/WhatsAppButton.tsx",
+          "operation": "modify",
+          "description": "Update the WhatsApp link to use 9630232599 (or 9179142549 as appropriate) in the WhatsApp URL format (https://wa.me/919630232599). Ensure the pre-filled message includes the correct contact number."
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Change experience value to 2 years in About and Hero sections",
+      "acceptanceCriteria": [
+        "The About section displays '2 Years of Experience' (or '2+ Years') in the highlights or stats area",
+        "The Hero section stats row shows '2+' or '2 Years' for the experience metric if that stat exists",
+        "No other year count contradicts the 2-year experience claim anywhere on the page"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Update the highlights checklist or any stats display to show '2 Years of Experience' (or '2+ Years'). Locate where years of experience is currently mentioned and change it to reflect 2 years."
+        },
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update the stats row to display '2+' or '2 Years' for the experience metric. Locate the current experience stat and change it to reflect 2 years of experience."
+        }
+      ]
+    }
+  ]
+}

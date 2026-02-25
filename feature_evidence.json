@@ -1,0 +1,46 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-all-instances-of-the-phone-numbers-in-the-contact-section-footer-and-whatsapp-button-to-use-9630232599-and-9179142549-ensure-both-numbers-appear-as-clickable-tel-links-wherever-phone-numbers-are-displayed",
+      "featureTitle": "Update all instances of the phone numbers in the Contact section, Footer, and WhatsApp button to use 9630232599 and 9179142549. Ensure both numbers appear as clickable tel: links wherever phone numbers are displayed.",
+      "files": [
+        "frontend/src/components/ContactSection.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/WhatsAppButton.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-in-the-about-section-s-highlights-checklist-and-or-stats-row-wherever-years-of-experience-is-mentioned-change-the-experience-value-from-its-current-value-to-2-years-of-experience-also-update-the-hero-section-stats-row-if-it-references-years-of-experience",
+      "featureTitle": "In the About section's highlights checklist and/or stats row (wherever years of experience is mentioned), change the experience value from its current value to '2 Years of Experience'. Also update the Hero section stats row if it references years of experience.",
+      "files": [
+        "frontend/src/components/AboutSection.tsx",
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

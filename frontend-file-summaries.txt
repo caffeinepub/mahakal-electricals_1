@@ -1,0 +1,15 @@
+{
+  "frontend/src/index.css": "Global styles with Poppins font import, OKLCH color tokens for navy/gold palette, and utility classes for brand colors, card shadows, and smooth scroll behavior.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with Poppins font family, custom navy/gold/whatsapp color tokens, card shadow utilities, and fade-in-up animation keyframes.",
+  "frontend/src/App.tsx": "Root app component that composes all page sections (Navbar, Hero, About, Brands, Products, Services, Contact, Footer, WhatsApp button) in a single-page layout.",
+  "frontend/src/components/Navbar.tsx": "Sticky top navigation bar with MAHAKAL ELECTRICALS logo, smooth-scroll nav links, highlighted Contact Us button, and a responsive hamburger menu for mobile.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero section with background image overlay, headline, subtitle, two CTA buttons, and a stats row updated to show \"2+\" for Years Experience (changed from 10+).",
+  "frontend/src/components/AboutSection.tsx": "Two-column about section with shop image, description, owners' names (Neeraj Verma & Dheeraj Dhakad), location details, a gold \"2+ Years of Experience\" badge, and a highlights checklist.",
+  "frontend/src/components/BrandsSection.tsx": "Responsive grid of 12 brand tiles (Havells, Bajaj, BPL, Crompton, etc.) with emoji icons, brand-specific accent colors, and gold-border hover effects.",
+  "frontend/src/components/ProductsSection.tsx": "Full product catalog organized into 6 categories (Fans, LEDs, Switches, Wires, MCBs, Inverters) with brand-tagged product cards that lift on hover.",
+  "frontend/src/components/ServicesSection.tsx": "Six-card services grid (Wiring, Fan Repair, MCB, Inverter, Industrial, Home Automation) with icon badges and hover lift animation.",
+  "frontend/src/components/ContactSection.tsx": "Two-column contact section with updated phone numbers (+91 96302 32599 and +91 91791 42549) as clickable tel: links, WhatsApp link updated to 919630232599, shop address, business hours, map placeholder, and a local enquiry form with success feedback.",
+  "frontend/src/components/WhatsAppButton.tsx": "Fixed floating circular green WhatsApp button in the bottom-right corner that opens a pre-filled WhatsApp chat link using the updated number 919630232599.",
+  "frontend/src/components/Footer.tsx": "Dark navy footer with brand info, quick links, updated contact details showing both new phone numbers (9630232599 and 9179142549) as clickable links, WhatsApp link updated to 919630232599, copyright year, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks; no backend queries needed for this static informational website."
+}
